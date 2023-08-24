@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    font-family: 'Inter';
+    
+}
+
+#menusuperior {
+    background-image: url(images/fundohead.svg);
+    color: #FFFFFF;
+}
+
+#logo {
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+#titulo-menusuperior {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-menusuperior {
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#segundomenu {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone {
+    margin: 50px 0px 50px 100px;
+    padding: 15px
+}
+
+.textoinformativo {
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulovideo {
+    color: #247BA0; 
+    margin-top: 50px;
+}
+
+#video {
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel {
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-carrossel {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#div-cards {
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+
+#seta-esquerda {
+    display: none;
+}
+
+#card3 {
+    display: none;
+}
+
+.seta {
+    margin: 50%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.3s;
+}
+
+.card {
+    margin-left: 40px;
+}
+
+#formulario {
+    text-align: center;
+}
+
+#titulo-formulario {
+    color: #383838;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.input {
+    margin: 15px;
+    background-color: #EAECE5;
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button {
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #247BA0;
+    color:#FFFFFF;
+    font-weight: 700px;
+    margin: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#0e6387; 
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #383838;
+    transition-duration: 0.5s;
+}
